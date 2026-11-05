@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VELARA | Gaming Hub</title>
+    <meta
+      name="description"
+      content="A futuristic gaming community website for tournaments, news, and featured games."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="topbar">
+      <div class="container">
+        <p>Season 4: Battle Pass Live • 48 tournaments this week</p>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <div class="container nav-container">
+        <div class="logo-wrap">
+          <div class="logo-mark">V</div>
+          <span>VELARA</span>
+        </div>
+
+        <nav class="main-nav" id="mainNav">
+          <a href="#home">Home</a>
+          <a href="#games">Games</a>
+          <a href="#tournaments">Tournaments</a>
+          <a href="#news">News</a>
+          <a href="#community">Community</a>
+        </nav>
+
+        <div class="nav-actions">
+          <button class="btn btn-ghost">Sign In</button>
+          <button class="btn btn-primary">Join Now</button>
+        </div>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">NEXT-GEN GAMING CLUB</span>
+            <h1>Compete, create, and dominate.</h1>
+            <p>
+              Discover elite tournaments, trending game drops, and a community
+              built for players who live for high-stakes action.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#games" class="btn btn-primary">Explore Games</a>
+              <a href="#tournaments" class="btn btn-secondary">View Tournaments</a>
+            </div>
+
+            <div class="hero-stats">
+              <div>
+                <strong>120K+</strong>
+                <span>Players online</span>
+              </div>
+              <div>
+                <strong>4.9/5</strong>
+                <span>Community rating</span>
+              </div>
+              <div>
+                <strong>8.4M</strong>
+                <span>Matches tracked</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="game-card large">
+              <div class="card-glow"></div>
+              <div class="card-header">
+                <span class="pill live">LIVE</span>
+                <span class="rank">#1 Ranked</span>
+              </div>
+              <img
+                src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=900&q=80"
+                alt="Gaming tournament scene"
+              />
+              <div class="overlay">
+                <div class="meta">
+                  <span>Cyber Arena</span>
+                  <strong>Grand Finals</strong>
+                </div>
+                <button class="watch-btn">Watch Match</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="featured-strip">
+        <div class="container strip-grid">
+          <div class="strip-item">
+            <span>🔥 Trending</span>
+            <strong>Valor Clash</strong>
+          </div>
+          <div class="strip-item">
+            <span>🎮 Featured</span>
+            <strong>Night Drift</strong>
+          </div>
+          <div class="strip-item">
+            <span>🏆 Esports</span>
+            <strong>Pro Circuit</strong>
+          </div>
+          <div class="strip-item">
+            <span>📦 Drops</span>
+            <strong>New Skins</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="games">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <span class="eyebrow">DISCOVER</span>
+              <h2>Featured games</h2>
+            </div>
+            <a href="#" class="link-arrow">Browse all</a>
+          </div>
+
+          <div class="games-grid">
+            <article class="game-card card-small">
+              <img
+                src="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=900&q=80"
+                alt="Game cover"
+              />
+              <div class="game-info">
+                <div class="tags">
+                  <span>MOBA</span>
+                  <span>5v5</span>
+                </div>
+                <h3>Valor Clash</h3>
+                <p>Epic 5v5 battles with tactical objective control.</p>
+                <div class="card-bottom">
+                  <span class="rating">★ 4.8</span>
+                  <button>Play Now</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="game-card card-small">
+              <img
+                src="https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?auto=format&fit=crop&w=900&q=80"
+                alt="Game cover"
+              />
+              <div class="game-info">
+                <div class="tags">
+                  <span>Racing</span>
+                  <span>Arcade</span>
+                </div>
+                <h3>Night Drift</h3>
+                <p>High-speed circuits built for aggressive driving.</p>
+                <div class="card-bottom">
+                  <span class="rating">★ 4.9</span>
+                  <button>Play Now</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="game-card card-small">
+              <img
+                src="https://images.unsplash.com/photo-1528819622761-6bcf042f704f?auto=format&fit=crop&w=900&q=80"
+                alt="Game cover"
+              />
+              <div class="game-info">
+                <div class="tags">
+                  <span>FPS</span>
+                  <span>Ranked</span>
+                </div>
+                <h3>Zero Siege</h3>
+                <p>Precision gunplay and tactical team-based action.</p>
+                <div class="card-bottom">
+                  <span class="rating">★ 4.7</span>
+                  <button>Play Now</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="game-card card-small">
+              <img
+                src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=900&q=80"
+                alt="Game cover"
+              />
+              <div class="game-info">
+                <div class="tags">
+                  <span>MMO</span>
+                  <span>Co-op</span>
+                </div>
+                <h3>Worldforge</h3>
+                <p>Build, explore, and conquer massive shared worlds.</p>
+                <div class="card-bottom">
+                  <span class="rating">★ 4.6</span>
+                  <button>Play Now</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt-section" id="tournaments">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <span class="eyebrow">COMPETE</span>
+              <h2>Live tournaments</h2>
+            </div>
+            <a href="#" class="link-arrow">See schedule</a>
+          </div>
+
+          <div class="tournaments">
+            <div class="tournament-card">
+              <div class="tournament-top">
+                <span class="pill live">LIVE</span>
+                <span class="status">4 Teams Left</span>
+              </div>
+              <h3>Cyber Arena Invitational</h3>
+              <ul>
+                <li>Prize Pool: $12,000</li>
+                <li>Platform: PC + Console</li>
+                <li>Starts in 20 minutes</li>
+              </ul>
+              <button class="btn btn-primary small">Join Now</button>
+            </div>
+
+            <div class="tournament-card">
+              <div class="tournament-top">
+                <span class="pill">UPCOMING</span>
+                <span class="status">Regional</span>
+              </div>
+              <h3>Street League Clash</h3>
+              <ul>
+                <li>Prize Pool: $6,500</li>
+                <li>Format: Double Elimination</li>
+                <li>Starts tonight</li>
+              </ul>
+              <button class="btn btn-secondary small">Register</button>
+            </div>
+
+            <div class="tournament-card">
+              <div class="tournament-top">
+                <span class="pill">FEATURED</span>
+                <span class="status">Open Bracket</span>
+              </div>
+              <h3>Night Drift Cup</h3>
+              <ul>
+                <li>Prize Pool: $9,000</li>
+                <li>Single Elimination</li>
+                <li>Open to all players</li>
+              </ul>
+              <button class="btn btn-primary small">Enter</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="news">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <span class="eyebrow">LATEST</span>
+              <h2>Gaming news</h2>
+            </div>
+            <a href="#" class="link-arrow">More updates</a>
+          </div>
+
+          <div class="news-grid">
+            <article class="news-card">
+              <img
+                src="https://images.unsplash.com/photo-1511884642898-4c92249e20b6?auto=format&fit=crop&w=900&q=80"
+                alt="News image"
+              />
+              <div class="news-content">
+                <span class="news-tag">PATCH NOTES</span>
+                <h3>Season 4 arrives with a new battle pass and revised maps</h3>
+                <p>
+                  New movement mechanics, balance patches, and a 15% reward
+                  increase are now live across ranked playlists.
+                </p>
+              </div>
+            </article>
+
+            <article class="news-card">
+              <img
+                src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=900&q=80"
+                alt="News image"
+              />
+              <div class="news-content">
+                <span class="news-tag">ESPORTS</span>
+                <h3>Top teams prepare for the Global Invitational finals</h3>
+                <p>
+                  After a record viewership month, the best squads in the world
+                  are preparing for the championship weekend.
+                </p>
+              </div>
+            </article>
+
+            <article class="news-card">
+              <img
+                src="https://images.unsplash.com/photo-1560253023-3ec5d502959f?auto=format&fit=crop&w=900&q=80"
+                alt="News image"
+              />
+              <div class="news-content">
+                <span class="news-tag">COMMUNITY</span>
+                <h3>How player-built mods are redefining competitive play</h3>
+                <p>
+                  Fan-created strategies and custom game modes are driving a new
+                  wave of innovation around the esports scene.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section community-section" id="community">
+        <div class="container community-grid">
+          <div class="community-copy">
+            <span class="eyebrow">COMMUNITY</span>
+            <h2>Built for players who love the grind.</h2>
+            <p>
+              Join a thriving gaming network of creators, competitors, and
+              strategists. Share builds, organize scrims, and track your climb
+              with real-time stats.
+            </p>
+            <ul class="check-list">
+              <li>Team management & matchmaking</li>
+              <li>Custom tournaments and lobbies</li>
+              <li>Exclusive drops and early access</li>
+            </ul>
+          </div>
+
+          <div class="community-panel">
+            <div class="member-card">
+              <div class="avatar">M</div>
+              <div>
+                <strong>Mateo R.</strong>
+                <span>Diamond Division</span>
+              </div>
+            </div>
+
+            <div class="member-card">
+              <div class="avatar alt">A</div>
+              <div>
+                <strong>Ari K.</strong>
+                <span>Creator Guild</span>
+              </div>
+            </div>
+
+            <div class="panel-box">
+              <span class="mini-label">Active players</span>
+              <strong>54,892</strong>
+              <small>+12% this week</small>
+            </div>
+
+            <div class="panel-box highlight">
+              <span class="mini-label">Top reward</span>
+              <strong>Legend Pass</strong>
+              <small>Unlock now</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="newsletter">
+        <div class="container newsletter-box">
+          <div>
+            <span class="eyebrow">NEWSLETTER</span>
+            <h2>Get the latest drops and tournaments.</h2>
+          </div>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email" />
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="logo-wrap footer-logo">
+            <div class="logo-mark">V</div>
+            <span>VELARA</span>
+          </div>
+          <p>Built for players, creators, and competitive communities.</p>
+        </div>
+
+        <div>
+          <h4>Explore</h4>
+          <a href="#games">Games</a>
+          <a href="#tournaments">Tournaments</a>
+          <a href="#news">News</a>
+        </div>
+
+        <div>
+          <h4>Company</h4>
+          <a href="#">About</a>
+          <a href="#">Partnerships</a>
+          <a href="#">Contact</a>
+        </div>
+
+        <div>
+          <h4>Follow</h4>
+          <a href="#">Discord</a>
+          <a href="#">X / Twitter</a>
+          <a href="#">YouTube</a>
+        </div>
+      </div>
+
+      <div class="container copyright">
+        <p>© <span id="year"></span> VELARA. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
